@@ -1,0 +1,61 @@
+.travel__planetcard {
+  font-family: "Space Mono", monospace;
+
+  width: 20rem;
+  border-radius: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.2);
+  transition: ease 0.5s;
+}
+.travel__planetcard:hover {
+  scale: 1.05;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.travel__planetcard:hover .travel__planetcard-planet-img {
+  transform: translate(0px, -40px);
+  scale: 80%;
+}
+.travel__planetcard:hover .travel__planetcard-planet-desc {
+  opacity: 1;
+}
+.travel__planetcard:hover .travel__planetcard-planet-book {
+  opacity: 1;
+}
+
+.travel__planetcard-planet {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.travel__planetcard-planet-title {
+  font-size: 24px;
+  align-self: center;
+  transition: ease 0.5s;
+}
+.travel__planetcard-planet-img {
+  transform: translateY(50px);
+
+  transition: ease 0.5s;
+  margin-bottom: -2rem;
+}
+.travel__planetcard-planet-desc {
+  opacity: 0;
+  text-align: center;
+  transition: ease 0.5s;
+  margin-bottom: 5px;
+}
+.travel__planetcard-planet-book {
+  opacity: 0;
+  align-self: center;
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 1px;
+  transition: ease 0.5s;
+}
+.travel__planetcard-planet-book:hover {
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 10px white;
+}
