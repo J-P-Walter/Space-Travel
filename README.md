@@ -1,3 +1,7 @@
+This was a fun project to learn the basics of Framer Motion, as well as practice some more css. I believe I am getting better at css naming to keep things organized, but I know I still have much to learn. Next steps on my journey is learning proper practices to account for different screen sizes and changing the styling of the webpage accordingly
+
+You can find the project HERE
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
