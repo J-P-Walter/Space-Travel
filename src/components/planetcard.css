@@ -53,6 +53,7 @@
   border-radius: 5px;
   padding: 1px;
   transition: ease 0.5s;
+  cursor: pointer;
 }
 .travel__planetcard-planet-book:hover {
   color: black;
